@@ -340,23 +340,29 @@ footer a {
 /* Media Queries */
 @media (max-width: 768px) {
   /* Adjustments for tablets */
-  header, nav, .presentation, .self, .txtprojet, footer {
+  header, .presentation, .self, .txtprojet, footer {
     flex-direction: column;
     text-align: center;
   }
+  nav {
+    margin-left: 25px;
+  }
 
   nav a {
-    margin: 10px 0; /* Stack nav items vertically */
+    margin: 0px 10px; /* Stack nav items vertically */
   }
 
-  .parent {
-    grid-template-columns: repeat(2, 1fr); /* Adjust grid for smaller layout */
+
+  .reveal {
+    font-size: 10px;
   }
 
-  .div1, .div2, .div3, .div4, .div5 {
-    position: relative; /* Adjust positioning within the grid */
-    top: auto;
-    left: auto;
+  .div1 {
+    display: none;
+  }
+
+  .parent img {
+    display: none;
   }
 
   .presentation, .self, .txtprojet {
@@ -364,10 +370,36 @@ footer a {
     padding: 10px;
   }
 
+  .scrolldoown {
+    display: none;
+  }
+
   /* Reduce font sizes for smaller screens */
-  h1, .front, .dev, nav a, .scrolldoown, .presentation, .self h2, .txtprojet, footer p {
+  h1, nav a, .presentation, .self h2, .txtprojet, footer p {
     font-size: calc(1em + 1vw);
   }
+    
+  footer {
+    padding-top: 20%;
+  }
+  .front, .dev {
+    font-size: calc(2em + 1vw);
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+  }
+
+  #txtpresentation {
+    font-size: calc(0.6em + 1vw);
+  }
+
+  #apdm {
+    display: none;
+  }
+  p {
+    font-size: calc(0.8em + 1vw);
+  }
+  
 }
 
 @media (max-width: 480px) {
