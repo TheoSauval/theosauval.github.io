@@ -776,7 +776,7 @@ footer p {
 
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 780px) and (max-width: 1024px){
   nav {
     display: none;
   }
@@ -850,3 +850,19 @@ footer p {
     top: 165em;
   }
 }
+
+/* @media screen and (min-width: 781px) and (max-width: 1920px) {
+  nav {
+    visibility: visible;
+  }
+
+
+  header {
+    left: 0;
+    right: 10em;
+  }
+
+  .social-buttons {
+    top: 48em;
+  } 
+} */
