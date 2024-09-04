@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import Header from './components/Header';
-import DownloadButton from './components/DownloadButton';
-import OriginalCard from './components/Card';
-import Footer from './components/Footer';
-import TimelineItem from './components/TimelineItem';
-import Contact from './components/Contact';
+import Header from './components/header';
+import DownloadButton from './components/downloadButtons';
+import OriginalCard from './components/card';
+import Footer from './components/footer';
+import TimelineItem from './components/timelineItems';
+import Contact from './components/contact';
 
 export default function Page() {
   return (
