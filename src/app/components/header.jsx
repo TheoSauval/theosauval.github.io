@@ -33,7 +33,7 @@ export default function Header() {
                         <a href="#contact" className="text-teal-600 hover:text-teal-400">Contact</a>
                     </li>
                     <li>
-                        <a href="https://github.com/TheoSauval" className="text-teal-600 hover:text-teal-400">GitHub</a>
+                        <a href="https://github.com/TheoSauval" className="text-teal-600 hover:text-teal-400" target='_blanck'>GitHub</a>
                     </li>
                 </ul>
             </nav>
