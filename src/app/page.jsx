@@ -58,7 +58,7 @@ export default function Page() {
         <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 pb-8 px-4" id="projet">
           <OriginalCard text={<> <span className="font-bold">Portfolio</span> - Mon portfolio personnel, conçu pour présenter mes compétences et mes projets. <a href="" className="text-teal-600">Voir le projet</a></>} />
           <OriginalCard text={<> <span className="font-bold">Griefling</span> - Site de jeu vidéo en développement. <a href="" className="text-teal-600">Voir le projet</a></>} />
-          <OriginalCard text={<> <span className="font-bold">Votre appart neuf</span> - Site de gestion pour une agence immobilière. <a href="" className="text-teal-600">Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">Votre appart neuf</span> - Site de gestion pour une agence immobilière. <a href="https://www.votreappartneuf.com/" className="text-teal-600">Voir le projet</a></>} />
           <OriginalCard text={<> <span className="font-bold">Projet a venir</span> - En développement... <a href="" className="text-teal-600">Voir le projet</a></>} />
         </div>
         {/* Formation */}
