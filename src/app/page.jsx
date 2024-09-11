@@ -72,7 +72,7 @@ export default function Page() {
         {/* Formation */}
         <div id="education" className="m-auto max-w-3xl px-4">
           <h2 className='text-2xl font-bold text-white'>Ma formation</h2>
-          <p className='text-teal-600 pb-8'>Découvrez mon parcours de formation.</p>
+          <p className='text-teal-600 '>Découvrez mon parcours de formation.</p>
         </div>
         <div className="m-auto max-w-3xl py-10 px-4">
           <div className="space-y-8">
