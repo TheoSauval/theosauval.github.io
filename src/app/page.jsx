@@ -50,11 +50,19 @@ export default function Page() {
           <OriginalCard text={<> Je maîtrise <span className="font-bold">Figma</span> pour la conception de prototypes et d'interfaces utilisateur intuitives et attrayantes.</>} />
           <OriginalCard text={<> Je possède également des compétences en <span className="font-bold">Java</span>, <span className="font-bold">PHP</span>, <span className="font-bold">SQL</span>, <span className="font-bold">HTML</span> et <span className="font-bold">CSS</span> pour le développement complet de solutions web.</>} />
         </div>
+        {/* Stage */}
+        <div id="projects" className="m-auto max-w-3xl px-4">
+          <h2 className='text-2xl font-bold text-white'>Mon stage</h2>
+          <p className='text-teal-600 pb-8'>Découvrez mon stage chez VotreAppartNeuf réalisés en 2024.</p>
+        </div>
+        <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2 pb-8 px-4" id="projet">
+          <OriginalCard text={<> <span className="font-bold">Stage 2024</span> - Le projet "Votre Appart Neuf", une application web développée en collaboration, qui met en avant mes compétences en React, Tailwind CSS, et Next.js, avec un design responsive et un déploiement optimisé via Vercel. <a href="https://votre-appart-neuf-or-stage.gitbook.io/stage-ynov" className="text-teal-600">Voir le projet</a></>} />
+        </div>
+        {/* Project */}
         <div id="projects" className="m-auto max-w-3xl px-4">
           <h2 className='text-2xl font-bold text-white'>Mes projets</h2>
           <p className='text-teal-600 pb-8'>Découvrez mes projets réalisés.</p>
         </div>
-        {/* Project */}
         <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 pb-8 px-4" id="projet">
           <OriginalCard text={<> <span className="font-bold">Portfolio</span> - Mon portfolio personnel, conçu pour présenter mes compétences et mes projets. <a href="" className="text-teal-600">Voir le projet</a></>} />
           <OriginalCard text={<> <span className="font-bold">Profitz</span> - Profitz est une plateforme d'analyse financière pour optimiser les investissements. <a href="https://app.profitz.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
