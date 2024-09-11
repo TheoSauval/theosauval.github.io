@@ -43,12 +43,12 @@ export default function Page() {
           </p>
         </div>
         <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-8 px-4">
-          <OriginalCard text={<> Je me sers de <span className="font-bold">React</span> pour développer des interfaces utilisateur à la fois dynamiques et flexibles dans mes applications.</>} />
-          <OriginalCard text={<> J'ai été immédiatement séduit par <span className="font-bold">TailwindCSS</span> et je crois que c'est l'outil idéal pour gérer le CSS.</>} />
-          <OriginalCard text={<> J'utilise <span className="font-bold">JavaScript</span> par défaut pour mes projets car il permet de créer des applications web interactives et performantes.</>} />
-          <OriginalCard text={<> Mon choix par défaut pour développer des projets web est <span className="font-bold">Next.js</span>, et je les déploie toujours sur <span className="font-bold">Vercel</span>.</>} />
-          <OriginalCard text={<> Je maîtrise <span className="font-bold">Figma</span> pour la conception de prototypes et d'interfaces utilisateur intuitives et attrayantes.</>} />
-          <OriginalCard text={<> Je possède également des compétences en <span className="font-bold">Java</span>, <span className="font-bold">PHP</span>, <span className="font-bold">SQL</span>, <span className="font-bold">HTML</span> et <span className="font-bold">CSS</span> pour le développement complet de solutions web.</>} />
+          <OriginalCard text={<> <img src="/images/react.webp" alt="react" className="size-20 mx-auto" />Je me sers de <span className="font-bold">React</span> pour développer des interfaces utilisateur à la fois dynamiques et flexibles dans mes applications.</>} />
+          <OriginalCard text={<> <img src="/images/tailwind.webp" alt="react" className="size-20 mx-auto" />J'ai été immédiatement séduit par <span className="font-bold">TailwindCSS</span> et je crois que c'est l'outil idéal pour gérer le CSS.</>} />
+          <OriginalCard text={<> <img src="/images/js.webp" alt="react" className="size-20 mx-auto" />J'utilise <span className="font-bold">JavaScript</span> par défaut pour mes projets car il permet de créer des applications web interactives et performantes.</>} />
+          <OriginalCard text={<> <img src="/images/next.webp" alt="react" className="size-20 mx-auto" />Mon choix par défaut pour développer des projets web est <span className="font-bold">Next.js</span>, et je les déploie toujours sur <span className="font-bold">Vercel</span>.</>} />
+          <OriginalCard text={<> <img src="/images/figma.webp" alt="react" className="size-20 mx-auto" />Je maîtrise <span className="font-bold">Figma</span> pour la conception de prototypes et d'interfaces utilisateur intuitives et attrayantes.</>} />
+          <OriginalCard text={<> <img src="/images/java.webp" alt="react" className="size-20 mx-auto" />Je possède également des compétences en <span className="font-bold">Java</span>, <span className="font-bold">PHP</span>, <span className="font-bold">SQL</span>, <span className="font-bold">HTML</span> et <span className="font-bold">CSS</span> pour le développement complet de solutions web.</>} />
         </div>
         {/* Stage */}
         <div id="projects" className="m-auto max-w-3xl px-4">
@@ -56,7 +56,7 @@ export default function Page() {
           <p className='text-teal-600 pb-8'>Découvrez mon stage chez VotreAppartNeuf réalisés en 2024.</p>
         </div>
         <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2 pb-8 px-4" id="projet">
-          <OriginalCard text={<> <span className="font-bold">Stage 2024</span> - Le projet "Votre Appart Neuf", une application web développée en collaboration, qui met en avant mes compétences en React, Tailwind CSS, et Next.js, avec un design responsive et un déploiement optimisé via Vercel. <a href="https://votre-appart-neuf-or-stage.gitbook.io/stage-ynov" className="text-teal-600">Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">Stage 2024</span> - Le projet "Votre Appart Neuf", une application web développée en collaboration, qui met en avant mes compétences en React, Tailwind CSS, et Next.js, avec un design responsive et un déploiement optimisé via Vercel. <a href="https://votre-appart-neuf-or-stage.gitbook.io/stage-ynov" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
         </div>
         {/* Project */}
         <div id="projects" className="m-auto max-w-3xl px-4">
