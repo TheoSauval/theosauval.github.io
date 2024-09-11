@@ -64,10 +64,10 @@ export default function Page() {
           <p className='text-teal-600 pb-8'>Découvrez mes projets réalisés.</p>
         </div>
         <div className="m-auto max-w-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 pb-8 px-4" id="projet">
-          <OriginalCard text={<> <span className="font-bold">Portfolio</span> - Mon portfolio personnel, conçu pour présenter mes compétences et mes projets. <a href="" className="text-teal-600">Voir le projet</a></>} />
-          <OriginalCard text={<> <span className="font-bold">Profitz</span> - Profitz est une plateforme d'analyse financière pour optimiser les investissements. <a href="https://app.profitz.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
-          <OriginalCard text={<> <span className="font-bold">Votre appart neuf</span> - Site de gestion pour une agence immobilière. <a href="https://www.votreappartneuf.com/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
-          <OriginalCard text={<> <span className="font-bold">DevMastery</span> - En développement... <a href="" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">Portfolio</span> - Mon portfolio personnel, conçu pour présenter mes compétences et mes projets. <br /><a href="https://theosauval.com/" className="text-teal-600">Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">Profitz</span> - Profitz est une plateforme d'analyse financière pour optimiser les investissements. <br /><a href="https://app.profitz.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">Votre appart neuf</span> - Site de gestion pour une agence immobilière. <br /><a href="https://www.votreappartneuf.com/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">DevMastery</span> - En développement... <br /><a href="" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
         </div>
         {/* Formation */}
         <div id="education" className="m-auto max-w-3xl px-4">
