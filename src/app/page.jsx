@@ -67,7 +67,7 @@ export default function Page() {
           <OriginalCard text={<> <span className="font-bold">Portfolio</span> - Mon portfolio personnel, conçu pour présenter mes compétences et mes projets. <br /><a href="https://theosauval.com/" className="text-teal-600">Voir le projet</a></>} />
           <OriginalCard text={<> <span className="font-bold">Profitz</span> - Profitz est une plateforme d'analyse financière pour optimiser les investissements. <br /><a href="https://app.profitz.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
           <OriginalCard text={<> <span className="font-bold">Votre appart neuf</span> - Site de gestion pour une agence immobilière. <br /><a href="https://www.votreappartneuf.com/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
-          <OriginalCard text={<> <span className="font-bold">DevMastery</span> - En développement... <br /><a href="https://www.devmastery.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
+          <OriginalCard text={<> <span className="font-bold">DevMastery</span> - Site web pour proposer des services de vente de sites web. <br /><a href="https://www.devmastery.fr/" className="text-teal-600" target='_blanck'>Voir le projet</a></>} />
         </div>
         {/* Formation */}
         <div id="education" className="m-auto max-w-3xl px-4">
