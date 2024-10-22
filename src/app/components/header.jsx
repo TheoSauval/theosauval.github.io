@@ -24,7 +24,7 @@ export default function Header() {
                         <a href="/" className="text-white">Theo</a>
                     </li>
                     <li>
-                        <a href="#projects" className="text-teal-600 hover:text-teal-400">Project</a>
+                        <a href="#projects" className="text-teal-600 hover:text-teal-400">Projets</a>
                     </li>
                     <li>
                         <a href="#education" className="text-teal-600 hover:text-teal-400">Education</a>
