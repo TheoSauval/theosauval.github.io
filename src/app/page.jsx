@@ -49,6 +49,9 @@ export default function Page() {
           <OriginalCard text={<> <img src="/images/next.webp" alt="react" className="size-20 mx-auto" />Mon choix par défaut pour développer des projets web est <span className="font-bold">Next.js</span>, et je les déploie toujours sur <span className="font-bold">Vercel</span>.</>} />
           <OriginalCard text={<> <img src="/images/figma.webp" alt="react" className="size-20 mx-auto" />Je maîtrise <span className="font-bold">Figma</span> pour la conception de prototypes et d'interfaces utilisateur intuitives et attrayantes.</>} />
           <OriginalCard text={<> <img src="/images/java.webp" alt="react" className="size-20 mx-auto" />Je possède également des compétences en <span className="font-bold">Java</span>, <span className="font-bold">PHP</span>, <span className="font-bold">SQL</span>, <span className="font-bold">HTML</span> et <span className="font-bold">CSS</span> pour le développement complet de solutions web.</>} />
+          <OriginalCard text={<> <img src="/images/GO.webp" alt="GO" className="size-20 mx-auto" />J'ai acquis des compétences solides en <span className="font-bold">GO</span>, me permettant de développer des solutions web complètes et performantes.</>} />
+          <OriginalCard text={<> <img src="/images/php.webp" alt="PHP" className="size-20 mx-auto" />Grâce à mon expérience en <span className="font-bold">PHP</span>, j'ai développé des solutions web performantes, incluant la gestion et l'intégration de bases de données pour des contenus dynamiques.</>} />
+          <OriginalCard text={<> <img src="/images/SQL.webp" alt="SQL" className="size-20 mx-auto" />Avec mes compétences en <span className="font-bold">SQL</span>, j'ai conçu et optimisé des bases de données relationnelles pour gérer efficacement des données structurées dans des projets web.</>} />
         </div>
         {/* Stage */}
         <div id="projects" className="m-auto max-w-3xl px-4">
